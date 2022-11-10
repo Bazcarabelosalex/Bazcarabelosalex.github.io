@@ -6,28 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link  rel="stylesheet"  href="Estilo.css">
 </head>
 
 <body>
-    <form></form>
+    
     <hl><a href="index.html">Viajes alex</a></hl>
+    <form>
     <hr>
+    <ol type="I">
+       
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Marte.html">Marte</a></li>
+        <li><a href="Luna.html">Luna</a></li>
+        <li><a href="Antartida.html">Antártida</a></li>
+        <li><a href="Butan.html">Butan</a></li>
+        <li><a href="Filandia.html">Filandia</a></li>
+    </ol>
+    <h3> 
+
     <hl>Cuestionario</hl>
     <p></p>
-
+<h3> 
     <label> Introduce tu nombre y apellidos :</label> <input type="text" name="Nombre y apellidos" />
     <p></p>
-    Mensaje <textarea name="mensaje" cols="100" rows="1"> </textarea>
+    Mensaje :<p></p><textarea name="mensaje" cols="100" rows="1"> </textarea>
     <p></p>
-    <label>Selecciona el color de tu icono:</label>
-    <p>
+    <label>Selecciona a donde quieres ir :</label>
+    <h3>
     <p></p>
-    <input type="radio" name="coloricono" value="rojo" /> Rojo <br>
-    <input type="radio" name="coloricono" value="verde" /> Verde <br>
-    <input type="radio" name="coloricono" value="azul" /> Azul <br>
+    <input type="radio" name="coloricono" value="rojo" /> Marte<br>
+    <input type="radio" name="coloricono" value="verde" /> Luna <br>
+    <input type="radio" name="coloricono" value="azul" /> Antartida <br>
+    <input type="radio" name="coloricono" value="negro" /> Butan <br>
+    <input type="radio" name="coloricono" value="amaillo" /> Filandia<br>
     <p></p>
     <label> Selecciona el dia que prefieres:</label>
-    <p>
+    <h3>
 
         <input type="checkbox" name="dias" value="l" /> Lunes<br>
         <input type="checkbox" name="dias" value="m" />Martes<br>
@@ -52,12 +67,19 @@
     <p></p>
     <input type="date" id="appt" name="appt">
     <input type="submit" value="Submit">
-    </form>
     <p></p>
-    <svg width="400" height="400">
-        <circle cx="60" cy="20" r="50" stroke="yellow" stroke-width="6" fill="blue" />  
-            <circle cx="20" cy="20" r="40" stroke="yellow" stroke-width="6" fill="blue" />  </svg>
-        
+    </form>
+    
+    <p></p>
+    <svg width="400" height="680">
+
+        <rect x="1" y="2" rx="100" ry="50" width="120" height="125"
+            style="fill:black;stroke:black;stroke-width:5;opacity:0.5" />
+        <polygon points="60,20 30,48 40,90 80,88 90,48"
+            style="fill:lime;stroke:blue;stroke-width:5;fill-rule:evenodd;" />
+
+
+    </svg>
 
 
 </body>

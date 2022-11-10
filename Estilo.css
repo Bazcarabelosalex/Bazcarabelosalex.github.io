@@ -1,0 +1,207 @@
+body {
+	font-family: "Times New Roman", serif;
+	background-color: #6698FF;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-align: right;
+}
+
+p {
+	margin-left: 40px;
+	font-size: 14pt;
+	color: #FFCC66;
+}
+
+a:link {
+	color: goldenrod;
+}
+
+a:visited {
+	color: palegreen;
+}
+
+table {
+	margin-left: 80px;
+	font-size: 14pt;
+}
+
+hl {
+	color: #FFCC66;
+}
+
+div {
+	border: 5px solid black;
+	margin: 25px 35px 35px;
+	background-color: #FFCC66;
+}
+
+li {
+	display: inline;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+ol {
+	list-style-type: none;
+	margin: 32;
+	padding: 43;
+	overflow: hidden;
+	background-color: #333;
+}
+
+h1 {
+	background-color: #dae2f0;
+}
+
+h4 {
+	border-style: dotted;
+	border-color: palegreen blue orange black;
+	border-right-style: solid;
+	border-left-style: solid
+}
+
+div {
+	border: 2px solid black;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+p {
+	text-indent: 50px;
+}
+
+p {
+	text-shadow: 0 0 10px #FFCC66, 0 0 50px black;
+}
+
+a:hover {
+	color: red;
+}
+
+hr {
+	border-style: dotted;
+}
+
+
+.Circulo {
+	border-radius: 50%;
+}
+
+table {
+	box-shadow: 0px 0px 15px currentcolor;
+	border: 5px solid currentcolor;
+	padding: 15px;
+}
+
+p {
+	font-family: 'Courgette', cursive;
+}
+
+table {
+	font-family: 'Satisfy', cursive;
+}
+
+h4 {
+	margin-left: 40px;
+	font-size: 14pt;
+	color: #141414;
+}
+
+h3 {
+	margin-left: 20px;
+	font-size: 14pt;
+	color: #050505;
+}
+
+/*Cambia el tipo de tipografia de la etiqueta h3*/
+
+h3 {
+	font-family: 'Fugaz One', cursive;
+}
+
+/*Cambia el alineado  de la etiquea "centrado"*/
+
+.centrado {
+	text-align: left;
+}
+
+/*Cambia el color y el tamaño de input del texto */
+input[type=text] {
+	width: 130px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: #333;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	transition: width 0.4s ease-in-out;
+	color: palegreen;
+}
+
+input[type=text]:focus {
+	width: 100%;
+}
+
+/*Cambia el color y el tamaño del input de la fecha   */
+input[type=submit],
+input[type=date] {
+	background-color: #333;
+	border: none;
+	color: palegreen;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/*Cambia el color y el tamaño de la etiqueta select*/
+select {
+	width: 100%;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #333;
+	color: palegreen
+}
+
+/*Cambia el color y el tamaño de la etiqueta textarea*/
+
+textarea {
+	background-color: #333;
+	border: none;
+	color: palegreen;
+	padding: 3px 20px;
+	text-decoration: none;
+	margin: 2px 2px;
+	cursor: pointer;
+}
+
+.duplicado {
+	float: right;
+}
+
+p {
+	clear: right;
+}
